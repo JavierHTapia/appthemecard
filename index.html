@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appthemecard</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h3>Tema de color</h3>
+        <form id="theme-options">
+          <div>
+            <input checked type="radio" id="auto" name="theme" value="auto">
+            <label for="auto">Principal</label>
+          </div>
+          <div>
+            <input type="radio" id="verde" name="theme" value="verde">
+            <label for="light">Verde</label>
+          </div>
+          <div>
+            <input type="radio" id="rojo" name="theme" value="rojo">
+            <label for="dark">Rojo</label>
+          </div>
+          <div>
+            <input type="radio" id="azul" name="theme" value="azul">
+            <label for="dim">Azul</label>
+          </div>
+        </form>
+      </header>    
+    <div class="container">
+        <div class="card">
+            <div class="card__border">
+                <div class="card__perfil">
+                    <img src="assets/img/perfil.png" alt="card image" class="card__image">
+                </div>
+            </div>
+            <h3 class="card__name">Javier Huanca Tapia</h3>
+            <span class="card__profession">Front End Developer</span>
+            <div class="info">
+                <div class="info__icon">
+                    <i class='bx bx-plus-circle' ></i>
+                </div>
+                <div class="info__border">
+                    <div class="info__perfil">
+                        <img src="assets/img/perfil.png" alt="" class="info__image">
+                    </div>
+                </div>
+                <div class="info__data">
+                    <h3 class="info__name">Javier Huanca Tapia</h3>
+                    <span class="info__profession">Especialista en Front End</span>
+                    <span class="info__location">La Paz, Bolivia</span>
+                </div>
+                <div class="info__social">
+                    <a href="https://www.linkedin.com/in/javier-huanca-tapia/" target="_blank" class="info__social-link">
+                        <span class="info__social-icon"><i class='bx bxl-linkedin'></i></span>
+                    </a>
+                    <a href="https://github.com/JavierHTapia" target="_blank" class="info__social-link">
+                        <span class="info__social-icon"><i class='bx bxl-github' ></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JAVASCRIPT -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
