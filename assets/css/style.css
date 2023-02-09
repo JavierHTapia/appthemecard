@@ -122,7 +122,7 @@ header {
     box-shadow: 0 8px 32px hsla(178, 55%, 20%, .15); /*  hsla(hue, saturation, lightness, alpha) */
 }
 .card__image{
-    width: 80px;
+    width: 120px;
 
 }
 .card__border{
@@ -178,7 +178,7 @@ header {
     transition: opacity .3s;
 }
 .info__image{
-    width: 45px;    
+    width: 85px;    
 }
 .info__border{
     width: 64px;
